@@ -1,0 +1,139 @@
+/* header css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(30, 194, 142);
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    margin-left: 50px
+}
+
+.navbar .logo span {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .nav-items ul {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 100px
+}
+
+.navbar .nav-items ul li {
+    margin-left: 20px;
+
+}
+
+.navbar .nav-items ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* main css */
+#live-template .demo {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#live-template .demo button {
+    background-color: rgb(65, 83, 148);
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+
+
+#members .team-info {
+    background-color: rgb(30, 194, 142);
+    padding: 50px;
+    margin-top: 150px;
+}
+
+#members .team-info h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+#members .team-info span {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#members .description {
+    margin-top: 50px;
+}
+
+#members .description h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#members .description span {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+#members .box{
+    display: flex;
+}
+
+#members .box div {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+#members .box .member1{
+    background-color: rgb(168, 111, 132);
+
+}
+
+#members .box .member2{
+    background-color: rgb(86, 209, 133);
+
+}
+
+#members .box .member3{
+    background-color:rgb(202, 202, 13)
+
+}
+
+#members .box .member4{
+    background-color: rgb(52, 172, 219)
+
+}
+
+#members .box p{
+    opacity: 0.7;
+    text-align: center;
+    margin: 10px;
+}

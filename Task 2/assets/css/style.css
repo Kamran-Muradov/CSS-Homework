@@ -1,0 +1,103 @@
+/* header css */
+
+.header-items {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.header-items .logo p {
+    color: gray;
+}
+
+.header-items .navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-items .navbar ul li {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgb(70, 127, 148);
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+.header-items .navbar ul li a {
+    text-decoration: none;
+    color: rgb(70, 127, 148);
+    font-size: 18px;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    height: 1px;
+    background-color: rgb(70, 127, 148);
+}
+
+
+
+/* main css */
+
+#about {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#about .description {
+    width: 50%;
+}
+
+#about .description h1 {
+    color: rgb(70, 127, 148);
+    font-size: 36px;
+}
+
+#about .description p {
+    font-size: 17px;
+    line-height: 2;
+}
+
+#about .description p a {
+    text-decoration: none;
+    color: rgb(70, 127, 148);
+}
+
+#lates-templates {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#lates-templates h1 {
+    color: rgb(82, 155, 228);
+}
+
+#lates-templates .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lates-templates .box div {
+    width: 17%;
+}
+
+ #lates-templates .box p{
+    font-size: 17px;
+    line-height: 2;
+}
+
+#lates-templates .box h6 {
+    display: flex;
+    justify-content: center;
+}
+
+#lates-templates h6 a {
+    text-decoration: none;
+    color: rgb(70, 127, 148);
+    font-size: 20px;
+}
